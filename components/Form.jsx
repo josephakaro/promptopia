@@ -8,7 +8,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
 			</h1>
 			<p className="desc text-left max-w-full">
 				{type} and share amazing prompts with the world, and let your
-				imagiation run wild any AI-powered platform.
+				imagiation run wild any AI-powered platform
 			</p>
 			<form
 				onSubmit={handleSubmit}

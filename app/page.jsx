@@ -1,5 +1,11 @@
 import Feed from '@components/Feed';
 
+export const metaData = {
+	title: 'Promptopia',
+	descriptions:
+		'Promptopia is an open-source AI Prompting tool for modern world to discover, create, and share creative prompts',
+};
+
 const Home = () => {
 	return (
 		<section className="w-full flex-center flex-col">
